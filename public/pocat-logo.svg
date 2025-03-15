@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document icon -->
+  <rect x="40" y="40" width="60" height="80" stroke="#000" stroke-width="3" fill="none"/>
+  
+  <!-- Green leaf/pen inside document -->
+  <path d="M50 60 L90 60 L70 100 Z" fill="#00cc66" stroke="none"/>
+  
+  <!-- POCAT text -->
+  <text x="40" y="150" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#333">POCAT</text>
+  
+  <!-- Tagline -->
+  <text x="40" y="170" font-family="Arial, sans-serif" font-size="10" fill="#666">GREEN PRINTING IN HEIDELBERG</text>
+</svg> 
