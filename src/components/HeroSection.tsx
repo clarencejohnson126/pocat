@@ -71,17 +71,29 @@ export default function HeroSection() {
         
         {/* Payment methods */}
         <motion.div 
-          className="mt-16 flex flex-wrap justify-center gap-6 opacity-70"
+          className="mt-16 flex flex-wrap justify-center gap-4 opacity-70"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.7 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          <Image src="/paypal.svg" alt="PayPal" width={60} height={30} className="h-8 w-auto" />
-          <Image src="/klarna.svg" alt="Klarna" width={60} height={30} className="h-8 w-auto" />
-          <Image src="/giropay.svg" alt="Giropay" width={60} height={30} className="h-8 w-auto" />
-          <Image src="/applepay.svg" alt="Apple Pay" width={60} height={30} className="h-8 w-auto" />
-          <Image src="/mastercard.svg" alt="Mastercard" width={60} height={30} className="h-8 w-auto" />
-          <Image src="/visa.svg" alt="Visa" width={60} height={30} className="h-8 w-auto" />
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            PayPal
+          </div>
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            Klarna
+          </div>
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            Giropay
+          </div>
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            Apple Pay
+          </div>
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            MasterCard
+          </div>
+          <div className="text-white bg-black px-4 py-2 rounded text-sm font-medium border border-[#00c278]/20">
+            Visa
+          </div>
         </motion.div>
         
         {/* Scroll indicator */}

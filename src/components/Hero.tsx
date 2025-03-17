@@ -22,11 +22,11 @@ export default function Hero() {
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Hochwertige Bindungen</span>{' '}
                 <span className="block text-[#00c278] xl:inline">zum kleinen Preis</span>
               </h1>
-              <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Pocat bietet professionelle Bindungen für Ihre Dokumente in Heidelberg. 
                 Konfigurieren Sie Ihre individuelle Bindung mit verschiedenen Covers und Bindungsarten.
               </p>
@@ -45,7 +45,7 @@ export default function Hero() {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#bindungen"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 transition-all duration-300"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-[#00c278] text-base font-medium rounded-md text-[#00c278] bg-white hover:bg-[#00c278]/5 md:py-4 md:text-lg md:px-10 transition-all duration-300"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
